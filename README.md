@@ -1,0 +1,2 @@
+# deepwiki_autoredirect
+自動でgithubからdeepwikiへリダイレクトするクローム拡張機能
