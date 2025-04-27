@@ -7,7 +7,7 @@
   "manifest_version": 3,
 
   "host_permissions": ["*://github.com/*"],
-  "permissions": ["tabs"],
+  "permissions": ["tabs","storage"],
 
   "background": {
     "service_worker": "content.js"
