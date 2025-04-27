@@ -16,7 +16,7 @@
   "commands": {
   "redirect": {
     "suggested_key": { "default": "Ctrl+Shift+G", "mac": "Command+Shift+G" },
-    "description": "GitHubからDeepWikiへリダイレクト"
+    "description": "GitHubからDeepWikiへリダイレクト（この逆も可能です）"
   },
   "redirect-home": {
     "suggested_key": { "default": "Ctrl+Shift+H", "mac": "Command+Shift+H" },
