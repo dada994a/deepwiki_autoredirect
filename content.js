@@ -9,17 +9,10 @@ chrome.commands.onCommand.addListener(async (cmd) => {
     if (url.hostname === "github.com") {
       url.hostname = "deepwiki.com";
       chrome.tabs.update(tab.id, { url: url.toString() });
-    } else if (url.hostname === "gitlab.com") {
-      url.hostname = "deepwiki.com";
+    } else if (url.hostname === "deepwiki.com") {
+      url.hostname = "github.com";
       chrome.tabs.update(tab.id, { url: url.toString() });
-    } else {
-      chrome.notifications.create({
-        type: "basic",
-        iconUrl: "icon.png",
-        title: "DeepWiki AutoRedirect",
-        message: "このURLは変換できません。GitHub/GitLabのみ対応しています。"
-      });
-    }
+    } 
   } catch (error) {
     console.error("DeepWiki AutoRedirect エラー:", error);
     chrome.notifications.create({
