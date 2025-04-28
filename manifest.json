@@ -1,7 +1,7 @@
 {
   "name": "DeepWiki AutoRedirect",
   "description": "github automatically redirects to deepwiki Shortcut can be changed at [chrome://extensions/shortcuts]",
-  "version": "1.0.7b",
+  "version": "1.0.7",
   "author": "h_ypi",
   "homepage_url": "https://github.com/dada994a/deepwiki_autoredirect",
   "manifest_version": 3,
