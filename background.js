@@ -6,20 +6,25 @@ chrome.commands.onCommand.addListener(async (cmd) => {
 
   try {
     const url = new URL(tab.url);
+    const whitelist = ["github.com", "deepwiki.com"];
+    
+    if (!whitelist.includes(url.hostname)) {
+      throw new Error(`不正なドメイン: ${url.hostname}`);
+    }
+
     if (url.hostname === "github.com") {
       url.hostname = "deepwiki.com";
-      chrome.tabs.update(tab.id, { url: url.toString() });
+      await chrome.tabs.update(tab.id, { url: url.toString() });
     } else if (url.hostname === "deepwiki.com") {
       url.hostname = "github.com";
-      chrome.tabs.update(tab.id, { url: url.toString() });
-    } 
+      await chrome.tabs.update(tab.id, { url: url.toString() });
+    }
   } catch (error) {
     console.error("DeepWiki AutoRedirect エラー:", error);
     chrome.notifications.create({
       type: "basic",
-      iconUrl: "icon.png",
       title: "DeepWiki AutoRedirect",
-      message: "URLの変換中にエラーが発生しました。"
+      message: `エラー発生: ${error.message}`
     });
   }
 });
