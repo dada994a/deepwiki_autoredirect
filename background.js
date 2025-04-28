@@ -9,7 +9,7 @@ chrome.commands.onCommand.addListener(async (cmd) => {
     const whitelist = ["github.com", "deepwiki.com"];
     
     if (!whitelist.includes(url.hostname)) {
-      throw new Error(`不正なドメイン: ${url.hostname}`);
+      throw new Error(`Incorrect domain: ${url.hostname}`);
     }
 
     if (url.hostname === "github.com") {
@@ -20,11 +20,12 @@ chrome.commands.onCommand.addListener(async (cmd) => {
       await chrome.tabs.update(tab.id, { url: url.toString() });
     }
   } catch (error) {
-    console.error("DeepWiki AutoRedirect エラー:", error);
+    console.error("DeepWiki AutoRedirect Error:", error);
     chrome.notifications.create({
       type: "basic",
       title: "DeepWiki AutoRedirect",
-      message: `エラー発生: ${error.message}`
+      message: `Error: ${error.message}`
     });
   }
 });
+//このプロジェクトってこれ以上やることあるのか？
