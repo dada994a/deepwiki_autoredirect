@@ -1,23 +1,21 @@
 © 2024-2025 2P2FJP Development Group. All rights reserved.
 
-By using this software, you agree to the following terms and conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, and distribute copies of the Software,
+subject to the following conditions:
 
-1. Grant of License
-Permission is hereby granted for personal, non-commercial use of this software only.
+1. Attribution
+The above copyright notice, this permission notice, and a link to the original repository (https://github.com/dada994a/deepwiki_autoredirect) must be included in all copies or substantial portions of the Software.
 
-2. Restrictions
-You may not:
-- Use this software for commercial purposes.
-- Modify, distribute, sublicense, or create derivative works based on this software.
-- Copy or reproduce this software, in whole or in part, without prior written permission.
-- Upload this software or any part of it to external websites, cloud storage services, or other public platforms without permission.
+2. No False Attribution
+Users are prohibited from claiming authorship of the Software. You must not present the Software as if you created it.
 
-3. Disclaimer of Warranty
-This software is provided "as is," without warranty of any kind, either express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+3. Distribution
+If you share, distribute, or recommend the Software, you must provide either:
+- The original GitHub repository URL: https://github.com/dada994a/deepwiki_autoredirect
+- or the official Chrome Web Store URL (to be published).
 
-4. Limitation of Liability
-In no event shall the copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
-
-5. Termination
-Violation of any of these terms will result in the immediate termination of your license to use this software.
-
+4. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
