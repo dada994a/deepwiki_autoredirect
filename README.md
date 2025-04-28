@@ -1,6 +1,6 @@
 # DeepWiki AutoRedirect
 
-[Downloads](https://img.shields.io/github/downloads/dada994a/deepwiki_autoredirect/total.svg)
+[![Downloads](https://img.shields.io/github/downloads/dada994a/deepwiki_autoredirect/total.svg)](https://github.com/dada994a/deepwiki_autoredirect/releases)
 
 **DeepWiki AutoRedirect** is a Chrome extension that allows you to quickly switch between GitHub and DeepWiki using a customizable shortcut key.
 
