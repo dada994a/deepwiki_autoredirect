@@ -1,43 +1,43 @@
 # DeepWiki AutoRedirect
 
-**DeepWiki AutoRedirect** は、ショートカットキー操作によって GitHubページを DeepWiki にリダイレクトする Chrome拡張機能です。
+**DeepWiki AutoRedirect** is a Chrome extension that redirects GitHub pages to DeepWiki via shortcut key actions.
 
-## 概要
+## Overview
 
-- ショートカットキーを押すことで、現在開いている GitHubのリポジトリページを DeepWiki にリダイレクトします。
-- ショートカットキーは Chrome 拡張機能設定画面（`chrome://extensions/shortcuts`）から自由に変更できます。
+- Redirects the currently opened GitHub repository page to DeepWiki by pressing a shortcut key.
+- You can freely change the shortcut key from the Chrome extension settings screen (`chrome://extensions/shortcuts`).
 
 
-## インストール方法
+## Installation instructions
 
-### 開発者向け：ソースコードからインストール
+### For developers: install from source code 1.
 
-1. このリポジトリをクローンまたはダウンロードします。
-2. Chromeの「拡張機能管理」ページ（`chrome://extensions/`）を開きます。
-3. 「デベロッパーモード」をオンにします。
-4. 「パッケージ化されていない拡張機能を読み込む」をクリックし、ダウンロードしたフォルダを選択します。
+1. clone or download this repository. 2.
+Open Chrome's “Extensions Management” page (`chrome://extensions/`). 3.
+Turn on “Developer Mode”. 4.
+4. click “Load Unpackaged Extensions” and select the folder where you downloaded the extension.
 
-### ユーザー向け：リリース版をインストール
+### For Users: Install Release Version
 
-1. [Releasesページ](https://github.com/dada994a/deepwiki_autoredirect/releases) にアクセスします。
-2. Latestと緑色の文字がついているリリースからdeepwiki_autoredirect.crxをダウンロードします。
-3. Chromeの「拡張機能管理」ページ`chrome://extensions/`を開きます。
-4. ダウンロードした ファイルを、拡張機能ページにドラッグ＆ドロップします。
-5. インストールを確認するポップアップが出たら「追加」を選択します。
+1. go to the [Releases page](https://github.com/dada994a/deepwiki_autoredirect/releases) 2.
+2. download deepwiki-autoredirect.crx from the release marked with Latest and green text.
+Open Chrome's “Extensions Management” page `chrome://extensions/`. 4.
+Drag and drop the downloaded file to the extensions page. 5.
+Select “Add” when the pop-up asks you to confirm the installation.
 
-注：ブラウザによってはファイルのドラッグ＆ドロップをブロックする場合があります。  
-その場合は、手動インストール（Dev版）を試してください。
+Note: Some browsers may block dragging and dropping files.  
+In that case, try manual installation (Dev version).
 
-## インストール後の重要な設定（必須）
+## Important settings after installation (required)
 
-Chrome拡張機能の仕様により、インストール直後はショートカットキーが未設定状態になっています。  
-以下の手順で、必ずショートカットキーを手動で設定してください：
+Due to Chrome extension specifications, shortcut keys are not set immediately after installation.  
+Please be sure to set the shortcut key manually by following the steps below. 1:
 
-1. `chrome://extensions/shortcuts` にアクセスします。
-2. 「DeepWiki AutoRedirect」の欄を探します。
-3. 好きなキーコンビネーション（例: `Ctrl+Shift+G`, `Ctrl+Shift+H`など）を設定します。
+Go to `chrome://extensions/shortcuts`. 2.
+Look for the “DeepWiki AutoRedirect” field. 3.
+Set your favorite key combination (e.g. `Ctrl+Shift+G`, `Ctrl+Shift+H`, etc.).
 
-※設定しないとショートカットが動作しません！
+*If you don't set it, the shortcut will not work!
 
-## [ライセンス](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
-スターお願いします！
+## [license](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
+Please star!
