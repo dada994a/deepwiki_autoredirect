@@ -40,4 +40,4 @@ Chrome拡張機能の仕様により、インストール直後はショート�
 ※設定しないとショートカットが動作しません！
 
 ## [ライセンス](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
-
+スターお願いします！
