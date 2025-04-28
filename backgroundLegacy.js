@@ -19,13 +19,13 @@ chrome.commands.onCommand.addListener(async (cmd) => {
       url.hostname = "github.com";
       await chrome.tabs.update(tab.id, { url: url.toString() });
     }
+    //いつか変えると思う
   } catch (error) {
     console.error("DeepWiki AutoRedirect Error:", error);
     chrome.notifications.create({
       type: "basic",
-      iconUrl: "icon.png",
       title: "DeepWiki AutoRedirect",
-      message: `Error: ${error.message}`
+      message: `${error.message}`
     });
   }
 });
