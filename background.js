@@ -23,6 +23,7 @@ chrome.commands.onCommand.addListener(async (cmd) => {
     console.error("DeepWiki AutoRedirect Error:", error);
     chrome.notifications.create({
       type: "basic",
+      iconUrl: "icon.png",
       title: "DeepWiki AutoRedirect",
       message: `Error: ${error.message}`
     });
