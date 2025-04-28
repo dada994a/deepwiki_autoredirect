@@ -10,7 +10,7 @@
   "permissions": ["tabs"],
 
   "background": {
-    "service_worker": "backgroundV2.js"
+    "service_worker": "background.js"
   },
 
   "commands": {
