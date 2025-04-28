@@ -6,21 +6,17 @@
   "homepage_url": "https://github.com/dada994a/deepwiki_autoredirect",
   "manifest_version": 3,
 
-  "host_permissions": [  "https://github.com/*", "https://deepwiki.com/*" ],
-  "permissions": ["tabs","notifications"],
+  "host_permissions": [ "https://github.com/*", "https://deepwiki.com/*" ],
+  "permissions": ["tabs", "notifications"],
 
   "background": {
     "service_worker": "background.js"
   },
 
   "commands": {
-  "redirect": {
-    "suggested_key": { "default": "Ctrl+G", "mac": "Command+G" },
-    "description": "Back and forth between Github and DeepWiki"
-  },
-  "redirect-home": {
-    "suggested_key": { "default": "Ctrl+H", "mac": "Command+H" },
-    "description": "Go DeepWiki home page"
+    "redirect": {
+      "suggested_key": { "default": "Ctrl+G", "mac": "Command+G" },
+      "description": "Back and forth between Github and DeepWiki"
+    }
   }
-}
 }
