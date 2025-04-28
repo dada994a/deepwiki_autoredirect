@@ -20,8 +20,7 @@
 ### ユーザー向け：リリース版をインストール
 
 1. [Releasesページ](https://github.com/dada994a/deepwiki_autoredirect/releases) にアクセスします。
-2. 最新版のリリースから  
-   deepwiki_autoredirect.crxをダウンロードします。
+2. Latestと緑色の文字がついているリリースからdeepwiki_autoredirect.crxをダウンロードします。
 3. Chromeの「拡張機能管理」ページ`chrome://extensions/`を開きます。
 4. ダウンロードした ファイルを、拡張機能ページにドラッグ＆ドロップします。
 5. インストールを確認するポップアップが出たら「追加」を選択します。
@@ -41,4 +40,4 @@ Chrome拡張機能の仕様により、インストール直後はショート�
 ※設定しないとショートカットが動作しません！
 
 ## [ライセンス](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
-
+スターお願いします！
