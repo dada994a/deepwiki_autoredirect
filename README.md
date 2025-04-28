@@ -2,6 +2,8 @@
 
 **DeepWiki AutoRedirect** is a Chrome extension that redirects GitHub pages to DeepWiki via shortcut key actions.
 
+![image](https://github.com/user-attachments/assets/f8633fbd-661c-4da8-83f1-38127478e88e)
+
 ## Overview
 
 - Redirects the currently opened GitHub repository page to DeepWiki by pressing a shortcut key.
