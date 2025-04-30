@@ -45,5 +45,5 @@ You must manually configure the shortcut key:
 ## [License](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
 ## ⭐ Support
 
-If you like this project, please consider giving it a star!  
-Your support is greatly appreciated! 🚀
+If you like this project, please consider giving it a star!
+Your support means a lot and keeps us motivated to keep improving 🚀🚀
