@@ -18,7 +18,7 @@
 1. Clone or download this repository.
 2. Open Chrome's **Extensions Management** page (`chrome://extensions/`).
 3. Enable **Developer Mode**.
-4. Click **Load unpacked**, and select the downloaded folder.
+4. Click **Load unpacked extension**, and select the downloaded folder.
 
 ### For Users (Install from Release)
 
