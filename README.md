@@ -12,21 +12,15 @@
 - Shortcut keys can be freely changed from the Chrome extension settings page (`chrome://extensions/shortcuts`).
 
 ## Installation
-
+### For Users (Recommended)
+Install directly from the Chrome Web Store: [Chrome Web Store](https://chromewebstore.google.com/detail/deepwiki-autoredirect/ikeghddgpaghegfedpmahiapklpkpele)
+ 
 ### For Developers (Install from Source Code)
 
 1. Clone or download this repository.
 2. Open Chrome's **Extensions Management** page (`chrome://extensions/`).
 3. Enable **Developer Mode**.
 4. Click **Load unpacked extension**, and select the downloaded folder.
-
-### For Users (Install from Release)
-
-1. Go to the [Releases page](https://github.com/teamzisty/Deepwiki_AutoRedirect/releases).
-2. Download `deepwiki-autoredirect.crx` from the latest release (marked "Latest").
-3. Open Chrome's **Extensions Management** page (`chrome://extensions/`).
-4. Drag and drop the `.crx` file onto the extensions page.
-5. When prompted, click "Add" to install the extension.
 
 > **Note**: Some browsers or Chrome settings may block drag & drop installation.  
 > If this happens, please install using Developer Mode.
