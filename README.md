@@ -32,7 +32,7 @@ You must manually configure the shortcut key:
 
 1. Go to `chrome://extensions/shortcuts`.
 2. Find the **DeepWiki AutoRedirect** section.
-3. Set your preferred shortcut key combination (e.g., `Ctrl+Shift+G`, `Ctrl+Shift+H`).
+3. Set your preferred shortcut key combination (e.g., `Ctrl+G`, `Ctrl+B`).
 
 > ⚠️ If you do not set a shortcut key, the extension will not function!
 
