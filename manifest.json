@@ -1,27 +1,31 @@
 {
   "name": "DeepWiki AutoRedirect",
   "description": "Quickly switch between GitHub and DeepWiki with a customizable shortcut key.",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "author": "h_ypi",
   "homepage_url": "https://github.com/teamzisty/Deepwiki_AutoRedirect",
   "manifest_version": 3,
 
   "permissions": ["tabs"],
 
-	"icons": {
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
     "16": "icon/icon16.png",
     "48": "icon/icon48.png",
     "128": "icon/icon128.png"
   },
 
-  "background": {
-    "service_worker": "background.js"
-  },
-
   "commands": {
     "redirect": {
       "suggested_key": { "default": "Ctrl+G", "mac": "Command+G" },
-      "description": "Back and forth between Github and DeepWiki"
+      "description": "Back and forth between GitHub and DeepWiki"
+    },
+    "split_view": {
+      "suggested_key": { "default": "Ctrl+B", "mac": "Command+B" },
+      "description": "Open GitHub & DeepWiki side‑by‑side"
     }
   }
 }
