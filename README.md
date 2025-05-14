@@ -22,9 +22,6 @@ Install directly from the Chrome Web Store: [Chrome Web Store](https://chromeweb
 3. Enable **Developer Mode**.
 4. Click **Load unpacked extension**, and select the downloaded folder.
 
-> **Note**: Some browsers or Chrome settings may block drag & drop installation.  
-> If this happens, please install using Developer Mode.
-
 ## Post-Installation Setup (Important!)
 
 Due to Chrome extension specifications, shortcut keys are not set immediately after installation.  
@@ -34,10 +31,10 @@ You must manually configure the shortcut key:
 2. Find the **DeepWiki AutoRedirect** section.
 3. Set your preferred shortcut key combination (e.g., `Ctrl+G`, `Ctrl+B`).
 
-> ⚠️ If you do not set a shortcut key, the extension will not function!
+> ⚠ If you do not set a shortcut key, the extension will not function!
 
 ## [License](https://github.com/dada994a/deepwiki_autoredirect?tab=License-1-ov-file)
-## ⭐ Support
+## Support
 
 If you like this project, please consider giving it a star!
-Your support means a lot and keeps us motivated to keep improving 🚀🚀
+Your support means a lot and keeps us motivated to keep improving 
